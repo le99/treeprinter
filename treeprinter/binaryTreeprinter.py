@@ -56,7 +56,7 @@ def nodeKeys(nodes):
         if n == None:
             keys.append(' ')
         elif 'key' in n:
-            keys.append(n['key'])
+            keys.append(str(n['key']))
         else:
             keys.append(' ')
 
